@@ -1,3 +1,30 @@
 nav {
   background-color: slateblue;
 }
+
+.button {
+  background-color: blue;
+  color: white;
+  padding-left:  20px;
+  padding-right:  20px;
+
+}
+
+.italics {
+  font-style: italic;
+}
+
+.form {
+
+}
+.container { 
+  border-style: solid;
+  height: 500px;
+  width:  400px;
+}
+.captcha {
+  background-color: slategray;
+}
+div{
+  padding: 5px;
+}

@@ -5,26 +5,34 @@
 </head>
 <body>
   <nav>
-    
+
   </nav>
-  <form>
-    <legend>Create an Intuit Account</legend>
-    <fieldset class = 'account-info'>
-      <div>
-        <label>Email</label>
-        <input type = 'email' name = 'email' placeholder="example@intuit.com">
-      </div>
-      <div>
-        <label>Phone (Recommended)</label>
-        <input type = 'text' name = 'phone'>
-      </div>
-      <div>
-        <label>Password</label>
-        <input type = 'password' name = 'password' >
-      </div>
-    </fieldset>
-    <button name = 'submit'>
-      Create Account
-    </button> 
-  </form>
+  <div class = 'container'>
+    <form class = 'form'>
+      <legend>Create an Intuit Account</legend>
+      <fieldset class = 'account-info'>
+        <div>
+          <div><label>Email</label></div>
+          <input type = 'email' name = 'email' placeholder="example@intuit.com">
+        </div>
+        <div>
+          <div><label>Phone (Recommended)</label></div>
+          <input type = 'text' name = 'phone'>
+        </div>
+        <div>
+          <div><label>Password</label></div>
+          <input type = 'password' name = 'password' >
+        </div>
+      </fieldset>
+      <button name = 'submit' class = 'button'>
+        Create Account
+      </button> 
+      <section>
+        <p class = 'italics'>By clicking Create account, you agree to our <a href = '#'>Terms</a><br /> and have read and acknowledge our <a href = '#'>Privacy<br />Statement</a></p>
+      </section>
+    </form>
+    <div class = 'captcha'>
+      Invisible reCAPTCHA by Google <a href = '#'>Privacy Policy</a> and <a href = '#'>Terms of Use.</a>
+    </div>
+  </div>
 </body>
