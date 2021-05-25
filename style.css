@@ -2,12 +2,23 @@ nav {
   background-color: slateblue;
 }
 
+body{
+  font-family: "Avenir", "Arial";
+}
+
+legend {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .button {
   background-color: blue;
   color: white;
   padding-left:  20px;
   padding-right:  20px;
-
+  margin-left: 30%;
+  margin-top: 10px;
 }
 
 .italics {
@@ -19,12 +30,20 @@ nav {
 }
 .container { 
   border-style: solid;
+  background-color: snow;
   height: 500px;
   width:  400px;
+
+  
 }
 .captcha {
-  background-color: slategray;
+  background-color: #e1e6e5;
+  padding: 0px;
 }
 div{
   padding: 5px;
+}
+
+body {
+  background-color: #e1e6e5;
 }
