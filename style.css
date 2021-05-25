@@ -1,5 +1,5 @@
 nav {
-  background-color: slateblue;
+  display: flex;
 }
 
 body{
@@ -23,6 +23,7 @@ legend {
 
 .italics {
   font-style: italic;
+  font-size: small;
 }
 
 .form {
@@ -33,12 +34,13 @@ legend {
   background-color: snow;
   height: 500px;
   width:  400px;
-
+  margin: auto;
   
 }
 .captcha {
   background-color: #e1e6e5;
   padding: 0px;
+  font-size: small;
 }
 div{
   padding: 5px;
@@ -46,4 +48,15 @@ div{
 
 body {
   background-color: #e1e6e5;
+}
+
+.sign-in{
+  margin-left: 90%;
+  font-size: small;
+}
+
+.legal {
+  font-size: small;
+  margin-left: 30%;
+  margin-right: 30%;
 }
