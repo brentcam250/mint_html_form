@@ -27,13 +27,16 @@ legend {
 }
 
 .form {
-
+  width: 90%;
+  margin: auto;
+  padding: 10px;
 }
 .container { 
   border-style: solid;
+  box-sizing: border-box;
   background-color: snow;
-  height: 500px;
-  width:  400px;
+  height: 50%;
+  width:  40%;
   margin: auto;
   
 }
